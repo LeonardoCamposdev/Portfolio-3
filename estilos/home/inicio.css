@@ -30,6 +30,10 @@
   border-radius: 16px;
 }
 
+.btn a {
+  color: var(--cor-1);
+}
+
 @media (max-width: 900px){
   .inicio-conteudo{
     grid-template-columns: 1fr;
