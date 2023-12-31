@@ -83,9 +83,6 @@
 }
 
 @media (max-width:630px){
-  .btn-mobile{
-    display: block;
-  }
   .header-menu{
     /*display: none; */
     display: block;
@@ -102,7 +99,7 @@
   }
 
   .nav.active .header-menu{
-    height: 50vh;
+    height: 100vh;
     visibility: visible;
     overflow-y: auto;
   }
@@ -121,5 +118,47 @@
 
   .header-menu a:hover::after{
     width: 30%;
+  }
+
+  .btn-mobile{
+    font-weight: 600;
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: .5rem;
+  }
+
+  .hamburguer{
+    color: var(--cor-1);
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+  }
+
+  .hamburguer::after, .hamburguer::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;  /* PARA COPIAR A COR QUE A GENTE ESCOLHEU NO HAMBUMERGUER*/
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+  }
+
+  .nav.active .hamburguer{
+    border-top-color: transparent;
+  }
+
+  .nav.active .hamburguer::before{
+    transform: rotate(135deg); /* PARA FAZER A ROTAÇÃO DO X */
+  }
+
+  .nav.active .hamburguer::after{
+    transform: rotate(-135deg); /* PARA FAZER A ROTAÇÃO DO X */
+    top: -7px;
   }
 }
