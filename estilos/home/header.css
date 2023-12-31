@@ -121,6 +121,7 @@
   }
 
   .btn-mobile{
+    color: var(--cor-1);
     font-weight: 600;
     display: flex;
     padding: .5rem 1rem;
