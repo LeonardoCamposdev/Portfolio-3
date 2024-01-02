@@ -82,15 +82,15 @@
   }
 }
 
-@media (max-width:630px){
+@media (max-width:715px){
   .header-menu{
-    /*display: none; */
     display: block;
     position: absolute;
     width: 100%;
     top: 180px;
     right: 0px;
-    background-color: #57da9f;
+    background-color: rgba(0, 0, 0, 0.438);
+    backdrop-filter: blur(10px); /* PARA DEIXAR O DESFOQUE NO FUNDO DO MENU */
     transition: .6s;
     z-index: 1000;
     height: 0px;
@@ -104,11 +104,11 @@
     overflow-y: auto;
   }
 
-
   .header-menu a{
     display: block;
     padding: 1rem 0;
     margin: 0 1rem;
+    color: var(--cor-0);
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   }
 
