@@ -98,7 +98,13 @@
     overflow-y: hidden;
   }
 
-  .nav.active .header-menu{
+  .nav.active{
+    height: 100vh;
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  .header-menu.active{
     height: 100vh;
     visibility: visible;
     overflow-y: auto;
