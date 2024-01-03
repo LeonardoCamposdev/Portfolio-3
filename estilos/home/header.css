@@ -83,6 +83,10 @@
 }
 
 @media (max-width:715px){
+  .header-container{
+    border-bottom: 1.5px solid #1dd81a8e;
+  }
+  
   .header-menu{
     display: block;
     position: absolute;
