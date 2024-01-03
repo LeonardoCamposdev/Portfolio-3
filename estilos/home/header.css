@@ -98,17 +98,12 @@
     overflow-y: hidden;
   }
 
-  .nav.active{
+  .nav.active .header-menu.active{
     height: 100vh;
     visibility: visible;
     overflow-y: auto;
   }
 
-  .header-menu.active{
-    height: 100vh;
-    visibility: visible;
-    overflow-y: auto;
-  }
 
   .header-menu a{
     display: block;
