@@ -4,6 +4,7 @@
   --cor-2: #16ff12;
   --cor-4: #d6d4d4;
   --cor-5: #232323;
+  --cor-6: #F4F8F9;
 }
 
 .cor-0{
@@ -20,4 +21,13 @@
 
 .cor-4{
   color: var(--cor-4);
+}
+
+.cor-5{
+  color: var(--cor-5);
+}
+
+
+.cor-6{
+  color: var(--cor-6);
 }
