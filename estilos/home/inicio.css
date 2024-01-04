@@ -37,7 +37,7 @@
 @media (max-width: 900px){
   .inicio-conteudo{
     grid-template-columns: 1fr;
-    gap: 80px;
+    gap: 20px;
   }
 
   .inicio-conteudo h1{
