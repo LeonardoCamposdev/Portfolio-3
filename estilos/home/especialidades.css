@@ -1,6 +1,7 @@
 .seciton-background{
-  background-color: #070707;
+  background-image: linear-gradient(to right, #4FFFDC, #488C83, #197568);
 }
+
 
 .especialidades-container {
   max-width: 1280px;
@@ -54,7 +55,7 @@
 }
 
 .especilidades-itens li{
-  border: 2px solid #11a72a;
+  border: 3px solid #11a72a;
   padding: 85px 40px;
   border-radius: 24px;
 }
@@ -84,18 +85,30 @@
   max-width: 40ch;
 }
 
+
 .especilidades-itens .btn:hover{
-  box-shadow: 0px 0px 30px 10px #1dd81a8e;
+  box-shadow: 0px 0px 20px 5px #1dd81a8e;
 }
 
 @media (max-width: 1125px){
   .especilidades-itens{
     gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .especilidades-itens li:first-child, .especilidades-itens li:last-child{
+    position: initial;
+    top: 40px;
+    transition: .6s;
+  }
+  
+  .especilidades-itens li:nth-child(2){
+    position: initial;
   }
 }
 
-@media (max-width: 1125px){
-  .especilidades-itens{
-    flex-wrap: wrap;
+@media (max-width: 900px){
+  .especilidades-itens .btn{
+    display: block;
   }
 }
