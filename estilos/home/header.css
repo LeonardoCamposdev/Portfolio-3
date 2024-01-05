@@ -67,7 +67,7 @@
   display: none;
 }
 
-@media (max-width: 895px) {
+@media (max-width: 900px) {
   .btn {
     display: none;
   }

@@ -1,5 +1,5 @@
 .seciton-background{
-  background-color: var(--cor-6);
+  background-color: #070707;
 }
 
 .especialidades-container {
@@ -10,10 +10,91 @@
 
 .especialidades-conteudo{
   margin-top: 80px;
-  text-align: center;
+  margin-bottom: 80px;
+  text-align: left;
 }
 
 .especialidades-conteudo h1{
-  font-size: 2rem;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+
+
+.especialidades-conteudo p{
+  margin-bottom: 50px;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  max-width: 40ch;
+}
+
+.especialidades-conteudo p span{
+  font-weight: bolder;
+}
+
+.especilidades-itens{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.especilidades-itens img{
+  margin: 0 auto;
+  max-width: 80px;
+  background-color: var(--cor-0);
+  border-radius: 45%;
+  padding: 15px;
+}
+
+.especilidades-itens h2{
+  font-size: 1.2rem;
   margin-bottom: 20px;
+  
+}
+
+.especilidades-itens li{
+  border: 2px solid #11a72a;
+  padding: 85px 40px;
+  border-radius: 24px;
+}
+
+.especilidades-itens li:first-child, .especilidades-itens li:last-child{
+  position: relative;
+  top: 40px;
+  transition: .6s;
+}
+
+.especilidades-itens li:first-child:hover, .especilidades-itens li:last-child:hover{
+  top: 0px;
+}
+
+.especilidades-itens li:nth-child(2){
+  position: relative;
+  top: 0px;
+  transition: .6s;
+}
+
+.especilidades-itens li:nth-child(2):hover{
+  top: -25px;
+}
+
+.especilidades-itens li p{
+  font-size: 1rem;
+  max-width: 40ch;
+}
+
+.especilidades-itens .btn:hover{
+  box-shadow: 0px 0px 30px 10px #1dd81a8e;
+}
+
+@media (max-width: 1125px){
+  .especilidades-itens{
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1125px){
+  .especilidades-itens{
+    flex-wrap: wrap;
+  }
 }
