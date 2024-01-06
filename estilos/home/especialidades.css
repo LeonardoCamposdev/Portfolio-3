@@ -55,7 +55,7 @@
 }
 
 .especilidades-itens li{
-  border: 3px solid var(--cor-0);
+  border: 3px solid #11a72a;
   padding: 85px 40px;
   border-radius: 24px;
   position: absolute;
