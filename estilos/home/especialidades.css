@@ -16,8 +16,12 @@
 }
 
 .especialidades-conteudo h1{
-  font-size: 2.3rem;
+  margin-bottom: 10px;
+  font-size: 3rem;
   text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Righteous', sans-serif;
+  color: black;
 }
 
 
@@ -37,6 +41,7 @@
     gap: 80px;
     justify-content: center;
     text-align: center;
+    font-weight: 700;
 }
 
 .especilidades-itens img{
@@ -133,6 +138,13 @@
   .especilidades-itens .btn{
     display: block;
   }
+}
+
+@media (max-width:500px){
+  .especialidades-conteudo h1{
+    font-size: 2.2rem;
+  }
+  
 }
 
 /* BOTÕES BOTÕES BTN !!!!!! */
