@@ -28,7 +28,7 @@
 .especialidades-conteudo p{
   margin-bottom: 50px;
   line-height: 1.5;
-  font-size: 1.125rem;
+  font-size: 1.3rem;
   max-width: 40ch;
 }
 
@@ -143,6 +143,10 @@
 @media (max-width:550px){
   .especialidades-conteudo h1{
     font-size: 3rem;
+  }
+
+  .especialidades-conteudo p{
+    font-size: 1.125rem;
   }
 }
 
