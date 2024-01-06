@@ -85,6 +85,9 @@
   max-width: 40ch;
 }
 
+.especilidades-itens .btn{
+  justify-self: center;
+}
 
 .especilidades-itens .btn:hover{
   box-shadow: 0px 0px 20px 5px #1dd81a8e;
@@ -110,5 +113,42 @@
 @media (max-width: 900px){
   .especilidades-itens .btn{
     display: block;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 535px){
+  .especilidades-itens .btn{
+    display: block;
+    margin-left: 86px;
+  }
+}
+
+@media (max-width: 494px){
+  .especilidades-itens .btn{
+    display: block;
+    margin-left: 66px;
+  }
+}
+
+@media (max-width: 472px){
+  .especilidades-itens .btn{
+    display: block;
+    margin-left: 55px;
+  }
+}
+
+
+@media (max-width: 464px){
+  .especilidades-itens .btn{
+    display: block;
+    margin-left: 47px;
+  }
+}
+
+@media (max-width: 420px){
+  .especilidades-itens .btn{
+    display: block;
+    margin-left: 32px;
   }
 }
