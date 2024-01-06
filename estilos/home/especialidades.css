@@ -156,6 +156,13 @@
   }
 }
 
+@media (max-width:400px){
+  .especialidades-conteudo h1{
+    font-size: 2rem;
+  }
+}
+
+
 /* BOTÕES BOTÕES BTN !!!!!! */
 
 @media (max-width:1165px){
