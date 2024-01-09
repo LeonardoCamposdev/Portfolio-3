@@ -3,6 +3,7 @@
 @import "./home/header.css";
 @import "./home/inicio.css";
 @import "./home/especialidades.css";
+@import "./home/sobre.css";
 
 @import "./global/ultilidades/tipografia.css";
 @import "./global/ultilidades/colors.css";
