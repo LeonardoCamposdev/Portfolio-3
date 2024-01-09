@@ -16,7 +16,9 @@
 .inicio-conteudo h1{
   font-size: 3.4rem;
   margin-bottom: 20px;
+  position: relative;
 }
+
 
 .inicio-conteudo p{
   font-size: 1.1rem;
