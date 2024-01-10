@@ -116,3 +116,10 @@
     left: 350px;
   }
 }
+
+@media (max-width:380px){
+  .sobre-conteudo::after{
+    height: 430px;
+    left: 335px;
+  }
+}
