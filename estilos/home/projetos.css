@@ -162,6 +162,7 @@
 }
 
 
+
 @media (max-width: 900px){
   /* ARRUMANDO PROJETO 1 E O 3 */
   .projeto-1, .projeto-2, .projeto-3{
@@ -212,5 +213,15 @@
   .projeto-2 .link-projeto{
     margin-bottom: 30px;
     margin-left: 30px;
+  }
+}
+
+@media (max-width: 500px){
+  .projetos-conteudo h1{
+    font-size: 2.2rem;
+  }
+
+  .projetos-conteudo p{
+    font-size: 1.125rem;
   }
 }
