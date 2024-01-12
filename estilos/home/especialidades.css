@@ -153,6 +153,10 @@
   .especialidades-conteudo p{
     font-size: 1.125rem;
   }
+
+  .especilidades-itens li{
+    background-image: linear-gradient(to bottom, #4FFFDC, #488C83, #197568);
+  }
 }
 
 @media (max-width:500px){
