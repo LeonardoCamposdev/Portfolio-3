@@ -60,10 +60,15 @@
 }
 
 .especilidades-itens li{
+  background-color: #197568;
   border: 3px solid #08e92e;
   padding: 85px 40px;
   border-radius: 24px;
   position: absolute;
+}
+
+.especilidades-itens li:hover{
+  background-image: linear-gradient(to bottom, #4FFFDC, #488C83, #197568);
 }
 
 /* CONSEGUIR MANIPULAR A POSIÇÃO DOS BOTOES */
