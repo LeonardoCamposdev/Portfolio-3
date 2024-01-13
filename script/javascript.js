@@ -14,19 +14,21 @@ function initMenuMobile(){
 }
 initMenuMobile();
 
+function initTypeWriter(){
+  const titulo = document.querySelectorAll('.js-h1-efeito')
 
-const titulo = document.querySelectorAll('.js-h1-efeito')
-
-titulo.forEach((titulo)=>{
-function typeWriter(elemento){
-  const textoArray = elemento.innerHTML.split('');
-  elemento.innerHTML = '';
-  textoArray.forEach((letra, i)=>{
-    setTimeout(function(){
-      elemento.innerHTML += letra;
-    }, 75 * i)
-  })
+  titulo.forEach((titulo)=>{
+  function typeWriter(elemento){
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i)=>{
+      setTimeout(function(){
+        elemento.innerHTML += letra;
+      }, 110 * i)
+    })
+  }
+  
+  typeWriter(titulo);
+  });
 }
-
-typeWriter(titulo);
-})
+initTypeWriter();
