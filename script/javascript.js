@@ -128,7 +128,7 @@ initAnimacaoScroll2();
 
 function initAnimacaoScroll3() {
   const liScroll = document.querySelector(".js-li-scroll3");
-  const windowMetade = window.innerHeight * 0.8;
+  const windowMetade = window.innerHeight * 0.7;
 
   function animaScroll() {
     const li = liScroll;
