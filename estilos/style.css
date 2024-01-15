@@ -34,6 +34,7 @@
 }
 */ 
 
+/* ANIMASCROLL LEFT >>  */
 .js-scroll{
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
@@ -44,6 +45,20 @@
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+/* ANIMASCROLL LEFT >>  */
+
+/* ANIMASCROLL DOWN>>  */
+.js-scroll-down{
+  opacity: 0;
+  transform: translate3d(0, 60px, 0);
+  transition: .5s;
+}
+
+.js-scroll-down.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+/* ANIMASCROLL DOWN >>  */
 
 /* PROJETO ANIMA SCROLL PARA ESPECIALIADES */
 .js-li-scroll1{

@@ -67,8 +67,8 @@ function initTypeWriter(){
 initTypeWriter();
 // EFEITO MAQUINA DE DIGITAR //
 
-// EFEITO ANIMASCROLL 
-function initAnimacaoScroll(){
+// EFEITO ANIMASCROLL LEFT
+function initAnimacaoScrollLeft(){
   const sections = document.querySelectorAll('.js-scroll');
   const windowMetade = window.innerHeight *0.6;
   
@@ -86,8 +86,30 @@ function initAnimacaoScroll(){
   
   window.addEventListener('scroll', animaScroll);
 }
-initAnimacaoScroll();
-// EFEITO ANIMASCROLL  //
+initAnimacaoScrollLeft();
+// EFEITO ANIMASCROLL LEFT //
+
+// EFEITO ANIMASCROLL DOWN
+function initAnimacaoScrollDown(){
+  const sections = document.querySelectorAll('.js-scroll-down');
+  const windowMetade = window.innerHeight *0.7;
+  
+  function animaScroll(){
+    sections.forEach((section)=>{
+      const sectionTop = section.getBoundingClientRect().top -windowMetade;
+  
+      if(sectionTop < 0){
+        section.classList.add('ativo');
+      } else{
+        section.classList.remove('ativo');
+      }
+    })
+  }
+  
+  window.addEventListener('scroll', animaScroll);
+}
+initAnimacaoScrollDown();
+// EFEITO ANIMASCROLL DOWN //
 
 // EFEITO ANIMA SCROLL PARA OS CARDS DAS ESPECIALIDAES 
 
@@ -199,3 +221,4 @@ function initAnimacaoScrollProjeto3() {
   window.addEventListener("scroll", animaScroll);
 }
 initAnimacaoScrollProjeto3();
+//EFEITO ANIMA SCROLL PARA OS PROJETOS //
