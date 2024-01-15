@@ -93,17 +93,3 @@
   }
 }
 
-@media (max-width:600px){
-  .js-li-scroll1{
-    opacity: 0;
-    transform: translate3d(-20px, 0, 0);
-    transition: .5s;
-  }
-  
-
-  .js-li-scroll3{
-    opacity: 0;
-    transform: translate3d(20px, 0, 0);
-    transition: .5s;
-  }
-}
