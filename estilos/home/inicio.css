@@ -19,6 +19,23 @@
   position: relative;
 }
 
+.inicio-conteudo h1::after{
+  content: ".";
+  color: var(--cor-2);
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+
+@keyframes pisca{
+  0%,100%{
+    opacity: 1;
+  }
+
+  50%{
+    opacity: 0;
+  }
+}
 
 .inicio-conteudo p{
   font-size: 1.1rem;

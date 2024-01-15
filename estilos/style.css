@@ -9,3 +9,71 @@
 
 @import "./global/ultilidades/colors.css";
 @import "./global/ultilidades/typography.css";
+
+ /* PARA O EFEITO DA ANIMAÇÃO PARA OS LADOS OU PARA CIMA OU BAIXO
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.js [data-anime]{
+  opacity: 0;
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
+*/ 
+
+.js-scroll{
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: .3s;
+}
+
+.js-scroll.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.js-li-scroll1{
+  opacity: 0;
+  transform: translate3d(-80px, 0, 0);
+  transition: .5s;
+}
+
+.js-li-scroll1.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.js-li-scroll2{
+  opacity: 0;
+  transform: translate3d(0, 60px, 0);
+  transition: .5s;
+}
+
+.js-li-scroll2.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.js-li-scroll3{
+  opacity: 0;
+  transform: translate3d(80px, 0, 0);
+  transition: .5s;
+}
+
+.js-li-scroll3.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
