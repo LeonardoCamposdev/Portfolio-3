@@ -144,3 +144,58 @@ function initAnimacaoScroll3() {
 }
 initAnimacaoScroll3();
 // EFEITO ANIMA SCROLL PARA OS CARDS DAS ESPECIALIDAES  //
+
+//EFEITO ANIMA SCROLL PARA OS PROJETOS //
+function initAnimacaoScrollProjeto1() {
+  const liScroll = document.querySelector(".js-projeto1");
+  const windowMetade = window.innerHeight * 0.7;
+
+  function animaScroll() {
+    const li = liScroll;
+      const liTop = li.getBoundingClientRect().top - windowMetade;
+      if (liTop < 0) {
+        li.classList.add("ativo");
+      } else {
+        li.classList.remove("ativo");
+      }
+    };
+
+  window.addEventListener("scroll", animaScroll);
+}
+initAnimacaoScrollProjeto1();
+
+function initAnimacaoScrollProjeto2() {
+  const liScroll = document.querySelector(".js-projeto2");
+  const windowMetade = window.innerHeight * 0.7;
+
+  function animaScroll() {
+    const li = liScroll;
+      const liTop = li.getBoundingClientRect().top - windowMetade;
+      if (liTop < 0) {
+        li.classList.add("ativo");
+      } else {
+        li.classList.remove("ativo");
+      }
+    };
+
+  window.addEventListener("scroll", animaScroll);
+}
+initAnimacaoScrollProjeto2();
+
+function initAnimacaoScrollProjeto3() {
+  const liScroll = document.querySelector(".js-projeto3");
+  const windowMetade = window.innerHeight * 0.7;
+
+  function animaScroll() {
+    const li = liScroll;
+      const liTop = li.getBoundingClientRect().top - windowMetade;
+      if (liTop < 0) {
+        li.classList.add("ativo");
+      } else {
+        li.classList.remove("ativo");
+      }
+    };
+
+  window.addEventListener("scroll", animaScroll);
+}
+initAnimacaoScrollProjeto3();

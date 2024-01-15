@@ -45,6 +45,7 @@
   transform: translate3d(0, 0, 0);
 }
 
+/* PROJETO ANIMA SCROLL PARA ESPECIALIADES */
 .js-li-scroll1{
   opacity: 0;
   transform: translate3d(-80px, 0, 0);
@@ -92,4 +93,38 @@
     transition: .5s;
   }
 }
+/* PROJETO ANIMA SCROLL PARA ESPECIALIADES */
 
+/* PROJETO ANIMA SCROLL PARA PROJETOS */
+.js-projeto1{
+  opacity: 0;
+  transform: translate3d(-80px, 0, 0);
+  transition: .5s;
+}
+
+.js-projeto1.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.js-projeto2{
+  opacity: 0;
+  transform: translate3d(0, 60px, 0);
+  transition: .5s;
+}
+
+.js-projeto2.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.js-projeto3{
+  opacity: 0;
+  transform: translate3d(80px, 0, 0);
+  transition: .5s;
+}
+
+.js-projeto3.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
