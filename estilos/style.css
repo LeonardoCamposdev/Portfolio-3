@@ -174,3 +174,16 @@
     transition: .5s;
   }
 }
+/* PROJETO ANIMA SCROLL PARA PROJETOS */
+
+/* DEIXAR A SCROLLBAR (BARRINHA DE ROLAGEM PERSONALIZADA) */
+::-webkit-scrollbar{
+  background-color: #2C2C39;
+  width: 15px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to bottom, #4FFFDC, #5eb4a9, #1c8d7e);
+  border-radius: 12px;
+}
