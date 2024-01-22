@@ -112,7 +112,6 @@ initAnimacaoScrollDown();
 // EFEITO ANIMASCROLL DOWN //
 
 // EFEITO ANIMA SCROLL PARA OS CARDS DAS ESPECIALIDAES 
-
 function initAnimacaoScroll1() {
   const liScroll = document.querySelector(".js-li-scroll1");
   const windowMetade = window.innerHeight * 0.7;
